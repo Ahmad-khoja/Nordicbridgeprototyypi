@@ -1,16 +1,107 @@
-# React + Vite
+# NordicBridge Prototype
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+NordicBridge Prototype is a modern web application prototype developed using React and Vite. The application demonstrates a platform for connecting organizations, students, researchers, and public institutions across the Nordic region.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The prototype includes several user interface pages such as a dashboard, challenges, challenge details, and other sections that support collaboration and innovation.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- React Router DOM
+- Tailwind CSS
+- React Leaflet
+- Leaflet
+- Lucide React
+- JavaScript (ES6)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Project Structure
+
+```
+src/
+
+assets/
+components/
+data/
+pages/
+App.jsx
+main.jsx
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Ahmad-khoja/Nordicbridgeprototyypi.git
+```
+
+Move to the project folder:
+
+```bash
+cd Nordicbridgeprototyypi
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Production Build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## Repository
+
+GitHub Repository:
+
+https://github.com/Ahmad-khoja/Nordicbridgeprototyypi
+
+---
+
+## Author
+
+Ahmad Khouja
+
+Lapland University of Applied Sciences
+
+ICT Engineering
+
+NordicBridge Internship Project
+
+2026
